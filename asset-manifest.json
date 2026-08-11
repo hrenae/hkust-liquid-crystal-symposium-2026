@@ -1,0 +1,406 @@
+{
+  "venue": [
+    {
+      "source": "GoogleMap.png",
+      "output": "assets/venue/google-map-hkust.webp",
+      "width": 1351,
+      "height": 880,
+      "mode": "RGB",
+      "format": "WEBP",
+      "bytes": 160994
+    },
+    {
+      "source": "GoogleMap.png",
+      "output": "assets/venue/google-map-hkust.png",
+      "width": 1351,
+      "height": 880,
+      "mode": "RGB",
+      "format": "PNG",
+      "bytes": 681714
+    }
+  ],
+  "hero": [
+    {
+      "file": "hero-hk-lc-1600.webp",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 389824
+    },
+    {
+      "file": "hero-hk-lc-900.webp",
+      "width": 900,
+      "height": 675,
+      "bytes": 170456
+    },
+    {
+      "file": "hero-hk-lc-fallback.png",
+      "width": 1600,
+      "height": 1200,
+      "bytes": 2985890
+    }
+  ],
+  "speakers": [
+    {
+      "index": 1,
+      "name": "Uros Tkalec",
+      "role": "invited",
+      "affiliation": "U of Ljubljana",
+      "email": "uros.tkalec@ijs.si",
+      "source": "Speaker/Uros Tkalec.jpg",
+      "output": "assets/speakers/01-uros-tkalec.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.42
+      ],
+      "width": 400,
+      "height": 400,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 39196
+    },
+    {
+      "index": 2,
+      "name": "Satoshi Aya",
+      "role": "invited",
+      "affiliation": "South China U of Tech.",
+      "email": "satoshiaya@scut.edu.cn",
+      "source": "Speaker/Satoshi Aya.jpg",
+      "output": "assets/speakers/02-satoshi-aya.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.37
+      ],
+      "width": 360,
+      "height": 435,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 32726
+    },
+    {
+      "index": 3,
+      "name": "Dong Chen",
+      "role": "invited",
+      "affiliation": "Zhejiang U",
+      "email": "chen_dong@zju.edu.cn",
+      "source": "Speaker/Dong Chen.jpg",
+      "output": "assets/speakers/03-dong-chen.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.37
+      ],
+      "width": 139,
+      "height": 185,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 16710
+    },
+    {
+      "index": 4,
+      "name": "Mingjun Huang",
+      "role": "invited",
+      "affiliation": "South China U of Tech.",
+      "email": "huangmj25@scut.edu.cn",
+      "source": "Speaker/Mingjun Huang.jpg",
+      "output": "assets/speakers/04-mingjun-huang.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.36
+      ],
+      "width": 360,
+      "height": 435,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 39176
+    },
+    {
+      "index": 5,
+      "name": "Yongzhong Huo",
+      "role": "invited",
+      "affiliation": "Fudan U",
+      "email": "yzhuo@fudan.edu.cn",
+      "source": "Speaker/Yongzhong Huo.jpg",
+      "output": "assets/speakers/05-yongzhong-huo.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.31
+      ],
+      "width": 800,
+      "height": 1200,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 26948
+    },
+    {
+      "index": 6,
+      "name": "Joonwoo Jeong",
+      "role": "invited",
+      "affiliation": "UNIST",
+      "email": "jjeong@unist.ac.kr",
+      "source": "Speaker/Joonwoo Jeong.png",
+      "output": "assets/speakers/06-joonwoo-jeong.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.37
+      ],
+      "width": 716,
+      "height": 885,
+      "mode": "RGBA",
+      "format": "PNG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 28186
+    },
+    {
+      "index": 7,
+      "name": "Young-Ki Kim",
+      "role": "invited",
+      "affiliation": "POSTECH",
+      "email": "ykkim@postech.ac.kr",
+      "source": "Speaker/Young-Ki Kim.jpg",
+      "output": "assets/speakers/07-young-ki-kim.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.39
+      ],
+      "width": 1762,
+      "height": 1730,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 42844
+    },
+    {
+      "index": 8,
+      "name": "Bo Li",
+      "role": "invited",
+      "affiliation": "Tsinghua U",
+      "email": "libome@mail.tsinghua.edu.cn",
+      "source": "Speaker/LI Bo.jpg",
+      "output": "assets/speakers/08-bo-li.webp",
+      "match": "normalized-name match",
+      "focal_point": [
+        0.5,
+        0.36
+      ],
+      "width": 147,
+      "height": 188,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 19322
+    },
+    {
+      "index": 9,
+      "name": "Cuiling Meng",
+      "role": "invited",
+      "affiliation": "UESTC",
+      "email": "cuilingmeng@uestc.edu.cn",
+      "source": "Speaker/Cuiling Meng.jpg",
+      "output": "assets/speakers/09-cuiling-meng.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.37
+      ],
+      "width": 480,
+      "height": 600,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 49736
+    },
+    {
+      "index": 10,
+      "name": "Da Wang",
+      "role": "invited",
+      "affiliation": "South China Normal U",
+      "email": "20220423@m.scnu.edu.cn",
+      "source": "Speaker/Da Wang.png",
+      "output": "assets/speakers/10-da-wang.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.37
+      ],
+      "width": 139,
+      "height": 167,
+      "mode": "RGBA",
+      "format": "PNG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 17440
+    },
+    {
+      "index": 11,
+      "name": "Qi-huo Wei",
+      "role": "organizer",
+      "affiliation": "SUSTech",
+      "email": "weiqh@sustech.edu.cn",
+      "source": "Speaker/Qi-huo Wei.jpg",
+      "output": "assets/speakers/11-qi-huo-wei.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.62,
+        0.47
+      ],
+      "width": 500,
+      "height": 264,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 40380
+    },
+    {
+      "index": 12,
+      "name": "Dengke Yang",
+      "role": "invited",
+      "affiliation": "South China U of Tech.",
+      "email": "dkyang@scut.edu.cn",
+      "source": "Speaker/Dengke Yang.jpg",
+      "output": "assets/speakers/12-dengke-yang.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.36
+      ],
+      "width": 360,
+      "height": 435,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 30262
+    },
+    {
+      "index": 13,
+      "name": "Zhongqiang Yang",
+      "role": "invited",
+      "affiliation": "Tsinghua U",
+      "email": "zyang@mail.tsinghua.edu.cn",
+      "source": "Speaker/Zhongqiang Yang.jpg",
+      "output": "assets/speakers/13-zhongqiang-yang.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.3
+      ],
+      "width": 3645,
+      "height": 5468,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 24702
+    },
+    {
+      "index": 14,
+      "name": "Zhigang Zheng",
+      "role": "invited",
+      "affiliation": "East China UST",
+      "email": "zgzheng@ecust.edu.cn",
+      "source": "Speaker/Zhigang Zheng.png",
+      "output": "assets/speakers/14-zhigang-zheng.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.35
+      ],
+      "width": 519,
+      "height": 776,
+      "mode": "RGBA",
+      "format": "PNG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 22418
+    }
+  ],
+  "organizers": [
+    {
+      "name": "Rui Zhang",
+      "role": "Organizer",
+      "title": "Associate Professor",
+      "affiliation": "HKUST",
+      "email": "ruizhang@ust.hk",
+      "source": "Organizer/ZHANG Rui.png",
+      "output": "assets/organizers/rui-zhang.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.56,
+        0.43
+      ],
+      "note": "Confirmed by supplied organizer photo and symposium information.",
+      "width": 480,
+      "height": 578,
+      "mode": "RGB",
+      "format": "PNG",
+      "output_width": 600,
+      "output_height": 750,
+      "bytes": 30446
+    },
+    {
+      "name": "Qi-huo Wei",
+      "role": "Organizer",
+      "title": "Full Professor",
+      "affiliation": "SUSTech",
+      "email": "weiqh@sustech.edu.cn",
+      "source": "Organizer/Qi-huo Wei.jpg",
+      "output": "assets/organizers/qi-huo-wei.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.62,
+        0.47
+      ],
+      "note": "Role, affiliation and email confirmed by SpeakerList.xlsx.",
+      "width": 500,
+      "height": 264,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 600,
+      "output_height": 750,
+      "bytes": 32602
+    },
+    {
+      "name": "Kristiaan Neyts",
+      "role": "Organizer · TBC",
+      "title": "SKL Director and Full Professor",
+      "affiliation": "HKUST",
+      "email": "eeneyts@ust.hk",
+      "source": "Organizer/Kristiaan Neyts.jpg",
+      "output": "assets/organizers/kristiaan-neyts.webp",
+      "match": "exact full-name match",
+      "focal_point": [
+        0.5,
+        0.39
+      ],
+      "note": "TBC retained from supplied symposium information.",
+      "width": 246,
+      "height": 335,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 600,
+      "output_height": 750,
+      "bytes": 22824
+    }
+  ]
+}
