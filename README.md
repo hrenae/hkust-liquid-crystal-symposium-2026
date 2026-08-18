@@ -4,9 +4,9 @@ This folder is a self-contained static website for the International Symposium o
 
 ## Data and image sources
 
-- Participant names, order, affiliations, emails and roles follow `SpeakerList.xlsx`.
-- The workbook contains 14 people: 13 with the role `invited` and Qi-huo Wei with the role `organizer`.
-- Committee details combine the workbook organizer entry with the supplied `Organizer/` portraits and supplied symposium information for Rui Zhang and Kristiaan Neyts. Kristiaan Neyts remains marked `TBC`.
+- Participant names, affiliations, emails and roles follow `SpeakerList.xlsx` and `NewAddedSpeakerList.xlsx`; the four additions use the supplied 15–18 portrait numbering.
+- The current participant list contains 18 people: 17 invited participants and Qi-huo Wei as organizer.
+- The organizing committee contains Rui Zhang and Qi-huo Wei, using the supplied `Organizer/` portraits and symposium information.
 - The hero artwork is a composite derived from the supplied `HK.png` and the actual liquid-crystal source file `LC.jpg`.
 - The venue visual uses the supplied `GoogleMap.png`, optimized into WebP with a PNG fallback while preserving the complete map, place panel and attribution.
 - The official supplied `HKUSTLOGO.svg` is used as the production logo, with its blue and gold mapped to the website palette for consistent contrast.

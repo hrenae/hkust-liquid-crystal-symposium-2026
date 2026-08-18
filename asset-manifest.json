@@ -333,6 +333,92 @@
       "output_width": 720,
       "output_height": 900,
       "bytes": 22418
+    },
+    {
+      "index": 15,
+      "name": "Jingxia Wang",
+      "role": "invited",
+      "affiliation": "CAS",
+      "email": "jingxiawang@mail.ipc.ac.cn",
+      "source": "UploadVersion/15-jingxia-wang.jpg",
+      "output": "assets/speakers/15-jingxia-wang.webp",
+      "match": "exact full-name and numbered portrait match",
+      "focal_point": [
+        0.5,
+        0.18
+      ],
+      "preprocess": "trimmed supplied right-side white padding before crop",
+      "width": 1536,
+      "height": 1720,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 64140
+    },
+    {
+      "index": 16,
+      "name": "Chenhui Peng",
+      "role": "invited",
+      "affiliation": "USTC",
+      "email": "cpeng2@ustc.edu.cn",
+      "source": "UploadVersion/16-chenhui-peng.png",
+      "output": "assets/speakers/16-chenhui-peng.webp",
+      "match": "exact full-name and numbered portrait match",
+      "focal_point": [
+        0.5,
+        0.38
+      ],
+      "width": 248,
+      "height": 298,
+      "mode": "RGBA",
+      "format": "PNG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 23634
+    },
+    {
+      "index": 17,
+      "name": "Jinghua Jiang",
+      "role": "invited",
+      "affiliation": "USTC",
+      "email": "jjiang2@ustc.edu.cn",
+      "source": "UploadVersion/17-jinghua-jiang.png",
+      "output": "assets/speakers/17-jinghua-jiang.webp",
+      "match": "trimmed full-name and numbered portrait match",
+      "focal_point": [
+        0.5,
+        0.25
+      ],
+      "preprocess": "trimmed supplied transparent side margins before crop",
+      "width": 248,
+      "height": 298,
+      "mode": "RGBA",
+      "format": "PNG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 15744
+    },
+    {
+      "index": 18,
+      "name": "Xingzhou Tang",
+      "role": "invited",
+      "affiliation": "NJUPT",
+      "email": "xztang@njupt.edu.cn",
+      "source": "UploadVersion/18-xingzhou-tang.jpg",
+      "output": "assets/speakers/18-xingzhou-tang.webp",
+      "match": "exact full-name and numbered portrait match",
+      "focal_point": [
+        0.5,
+        0.25
+      ],
+      "width": 350,
+      "height": 516,
+      "mode": "RGB",
+      "format": "JPEG",
+      "output_width": 720,
+      "output_height": 900,
+      "bytes": 19498
     }
   ],
   "organizers": [
@@ -379,28 +465,6 @@
       "output_width": 600,
       "output_height": 750,
       "bytes": 32602
-    },
-    {
-      "name": "Kristiaan Neyts",
-      "role": "Organizer · TBC",
-      "title": "SKL Director and Full Professor",
-      "affiliation": "HKUST",
-      "email": "eeneyts@ust.hk",
-      "source": "Organizer/Kristiaan Neyts.jpg",
-      "output": "assets/organizers/kristiaan-neyts.webp",
-      "match": "exact full-name match",
-      "focal_point": [
-        0.5,
-        0.39
-      ],
-      "note": "TBC retained from supplied symposium information.",
-      "width": 246,
-      "height": 335,
-      "mode": "RGB",
-      "format": "JPEG",
-      "output_width": 600,
-      "output_height": 750,
-      "bytes": 22824
     }
   ]
 }

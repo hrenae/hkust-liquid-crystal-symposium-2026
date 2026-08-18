@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-08-18 · Participant and organizer update
+
+- Added Jingxia Wang, Chenhui Peng, Jinghua Jiang and Xingzhou Tang from `NewAddedSpeakerList.xlsx`, including their supplied portraits, affiliations and email links.
+- Updated participant totals to 18 people: 17 invited participants and 1 organizer.
+- Removed Kristiaan Neyts from the organizing committee and rebalanced the committee layout for the two remaining organizers.
+- Regenerated the standalone offline HTML from the updated verified multi-file page.
+
 ## 2026-08-11 · Final website revision
 
 - Removed the complete Scientific Focus section, its navigation entry, decorative markup and section-only CSS.

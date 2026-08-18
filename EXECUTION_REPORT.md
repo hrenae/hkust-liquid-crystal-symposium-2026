@@ -2,22 +2,21 @@
 
 ## 1. Workbook results
 
-`SpeakerList.xlsx` contains one worksheet (`Sheet1`) with a used range of `A1:G16`. The participant table contains 14 people in workbook order:
+`SpeakerList.xlsx` contains one worksheet (`Sheet1`) with a used range of `A1:G16`. Its participant table contains 14 people in workbook order:
 
 - 13 rows with Role `invited`
 - 1 row with Role `organizer` (Qi-huo Wei, position 11)
 
-The production participant grid contains exactly those 14 people in the same order. Names, displayed affiliations, emails and roles follow the workbook text; role labels are title-cased only for presentation.
+`NewAddedSpeakerList.xlsx` contains one worksheet (`Sheet1`) with a used range of `A1:C5` and supplies four additional invited participants. The production grid now contains 18 people: the original 14 followed by the four additions in the supplied portrait numbering (15–18). Names, displayed affiliations, emails and roles follow the two workbook sources; role labels are title-cased only for presentation.
 
 ## 2. Organizing committee results
 
-Three organizer portraits were supplied and all three are displayed:
+The organizing committee displays two people:
 
 1. Rui Zhang — Organizer — Associate Professor — HKUST
 2. Qi-huo Wei — Organizer — Full Professor — SUSTech
-3. Kristiaan Neyts — Organizer, TBC — SKL Director and Full Professor — HKUST
 
-Qi-huo Wei is displayed both in the 14-person participant grid and in the organizing committee, with the appropriate role in both locations.
+Qi-huo Wei is displayed both in the 18-person participant grid and in the organizing committee, with the appropriate role in both locations. Kristiaan Neyts was removed from the committee and from the production asset set in the 2026-08-18 update.
 
 ## 3. Person-to-photo mapping
 
@@ -37,16 +36,19 @@ Qi-huo Wei is displayed both in the 14-person participant grid and in the organi
 | 12 | Dengke Yang | invited | South China U of Tech. | dkyang@scut.edu.cn | `Speaker/Dengke Yang.jpg` | `assets/speakers/12-dengke-yang.webp` | Exact full name |
 | 13 | Zhongqiang Yang | invited | Tsinghua U | zyang@mail.tsinghua.edu.cn | `Speaker/Zhongqiang Yang.jpg` | `assets/speakers/13-zhongqiang-yang.webp` | Exact full name |
 | 14 | Zhigang Zheng | invited | East China UST | zgzheng@ecust.edu.cn | `Speaker/Zhigang Zheng.png` | `assets/speakers/14-zhigang-zheng.webp` | Exact full name |
+| 15 | Jingxia Wang | invited | CAS | jingxiawang@mail.ipc.ac.cn | `UploadVersion/15-jingxia-wang.jpg` | `assets/speakers/15-jingxia-wang.webp` | Exact full name and numbered portrait |
+| 16 | Chenhui Peng | invited | USTC | cpeng2@ustc.edu.cn | `UploadVersion/16-chenhui-peng.png` | `assets/speakers/16-chenhui-peng.webp` | Exact full name and numbered portrait |
+| 17 | Jinghua Jiang | invited | USTC | jjiang2@ustc.edu.cn | `UploadVersion/17-jinghua-jiang.png` | `assets/speakers/17-jinghua-jiang.webp` | Trimmed full name and numbered portrait |
+| 18 | Xingzhou Tang | invited | NJUPT | xztang@njupt.edu.cn | `UploadVersion/18-xingzhou-tang.jpg` | `assets/speakers/18-xingzhou-tang.webp` | Exact full name and numbered portrait |
 
-Speaker mapping: **14 successful, 0 failed, 0 ambiguous, 0 duplicate-photo assignments**.
+Speaker mapping: **18 successful, 0 failed, 0 ambiguous, 0 duplicate-photo assignments**.
 
 | Organizer | Source photo | Production file | Match status |
 |---|---|---|---|
 | Rui Zhang | `Organizer/ZHANG Rui.png` | `assets/organizers/rui-zhang.webp` | Exact full-name components, normalized order/case |
 | Qi-huo Wei | `Organizer/Qi-huo Wei.jpg` | `assets/organizers/qi-huo-wei.webp` | Exact full name |
-| Kristiaan Neyts | `Organizer/Kristiaan Neyts.jpg` | `assets/organizers/kristiaan-neyts.webp` | Exact full name |
 
-Organizer mapping: **3 successful, 0 failed, 0 ambiguous**.
+Organizer mapping: **2 successful, 0 failed, 0 ambiguous**.
 
 All production portraits use one 4:5 ratio. Speaker files are 720 × 900 WebP; organizer files are 600 × 750 WebP. Crops use manually verified face/subject focal points, remove EXIF metadata and do not alter facial features.
 
@@ -69,14 +71,14 @@ Final normalized prompt: *Use the supplied Victoria Harbour dusk panorama as the
 
 ## 5. Updated and generated files
 
-- `index.html` — rebuilt content structure, hero, 14 participant cards, venue numbering and three organizer cards
+- `index.html` — rebuilt content structure, hero, 18 participant cards, venue numbering and two organizer cards
 - `styles.css` — rebuilt responsive styling; deleted removed-section/placeholder/old-hero rules
 - `script.js` — retained and verified for menu, reveal, countdown, sticky navigation and section state
 - `assets/brand/hkust-logo.svg` — supplied logo with production blue/gold mapping
 - `assets/hero/*` — three hero production files
 - `assets/venue/*` — supplied Google Maps venue image as an optimized WebP plus PNG fallback
-- `assets/speakers/*` — 14 optimized participant portraits
-- `assets/organizers/*` — three optimized committee portraits
+- `assets/speakers/*` — 18 optimized participant portraits
+- `assets/organizers/*` — two optimized committee portraits
 - `README.md` — offline use, data provenance, asset layout and portrait replacement instructions
 - `CHANGELOG.md` — final revision history
 - `asset-manifest.json` — dimensions, source/output mapping, focal points and file sizes
@@ -89,12 +91,10 @@ The unused legacy hero SVG was removed from the working/final production tree. I
 
 ## 6. Test results
 
-| Viewport | Participant columns | Horizontal overflow | Images | Console |
+| Viewport | Participant columns | Horizontal overflow | Images | Browser checks |
 |---|---:|---|---|---|
-| 1440 × 1000 | 4; final two centered | None | 21/21 load | No warnings or errors |
-| 1024 × 900 | 2 | None | Lazy images load during scroll | No warnings or errors |
-| 768 × 900 | 2 | None | Lazy images load during scroll | No warnings or errors |
-| 390 × 844 | 1 | None | 21/21 load during full-page pass | No warnings or errors |
+| 1440 × 1200 | 4; final two centered | None | 24/24 load | No broken page resources or non-resource console errors |
+| 390 × 1000 | 1 | None | 24/24 load during full-page pass | No broken page resources or non-resource console errors |
 
 Additional checks passed:
 
@@ -103,13 +103,12 @@ Additional checks passed:
 - All production image references are relative and exist.
 - Every image has `alt`, `width` and `height`; people use lazy/async loading; the hero uses async decoding and high fetch priority.
 - `prefers-reduced-motion` disables reveal motion, smooth scrolling and hero drift.
-- The standalone page contains 14 participant cards, three organizer cards and 21 embedded `<img>` elements; its responsive `<source>` images, CSS and JavaScript are also embedded.
+- The standalone page contains 18 participant cards, two organizer cards and 24 embedded `<img>` elements; its responsive `<source>` images, CSS and JavaScript are also embedded.
 - Standalone and multi-file text sequences are identical; standalone browser logs are empty and it has no external stylesheet, script or image references.
 - The required residual-string scan passes for all production files.
 
 ## 7. Items for human confirmation
 
-1. `SpeakerList.xlsx` contains only one organizer row (Qi-huo Wei). Rui Zhang and Kristiaan Neyts are absent from that workbook. Their committee names, titles, affiliations and emails were retained from the supplied symposium information and confirmed by their supplied `Organizer/` photographs. These two records should be confirmed by the symposium owner before publication.
-2. Kristiaan Neyts remains marked `TBC`, as required by the supplied information.
-3. The source portraits for Dong Chen (139 × 185), Bo Li (147 × 188) and Da Wang (139 × 167) are low resolution. They are correctly matched and cleanly rendered, but higher-resolution originals would improve large-screen sharpness without changing layout.
-4. The built-in browser security policy blocks `file://` navigation, so direct double-click behavior was validated structurally (relative-path existence and no absolute references) while visual/console testing used a read-only local HTTP server. The standalone file additionally passed a no-external-reference audit.
+1. `SpeakerList.xlsx` contains only one organizer row (Qi-huo Wei). Rui Zhang is absent from that workbook; his committee name, title, affiliation and email were retained from the supplied symposium information and confirmed by the supplied `Organizer/` photograph.
+2. The source portraits for Dong Chen (139 × 185), Bo Li (147 × 188), Da Wang (139 × 167), Chenhui Peng (248 × 298) and Jinghua Jiang (248 × 298) are low resolution. They are correctly matched and cleanly rendered, but higher-resolution originals would improve large-screen sharpness without changing layout.
+3. The built-in browser security policy blocks `file://` navigation, so direct double-click behavior was validated structurally (relative-path existence and no absolute references) while visual/console testing used a read-only local HTTP server. The standalone file additionally passed a no-external-reference audit.
